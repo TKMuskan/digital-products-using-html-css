@@ -3,6 +3,7 @@
   padding: 0px;
 }
 @media (min-width: 0px) { 
+  /*--------Header--------*/
   .logo{
     display: flex;
     justify-content: center;
@@ -45,15 +46,67 @@
     text-align: center;
     padding-bottom: 10%;
   }
-  .navber-container{
-  
+ /*--------Banner--------*/
+ .banner{
+  background-color: rgba(79, 13, 99, 0.13);
+  height: 36rem;
+  text-align: center;
+  align-items: center;
+ }
+ .banner-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: rgb(63, 63, 63);
+  padding-top: 15%;
+  padding-bottom: 10%;
+ }
+ .title-1stword , .title-2ndword{
+  color: blueviolet;
+  text-transform: uppercase;
+ }
+  .banner-description{
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 10%;
   }
- .banner-img{
-  height: 2rem;
-  width: 2rem;
+  .banner-btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    align-items: center;
+    height: 2.5rem;
+    width: 10rem;
+    font-weight: 500;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 0.5rem;
+    color: antiquewhite;
+  }
+  .banner-btn:hover{
+    background-color: rgb(226, 125, 43);
+  }
+  .banner-text{
+    padding-bottom: 15%;
+  }
+  .banner-img{
+  height: 14rem;
+  width: 14rem;
  }
 } 
+@media (min-width: 375px){
+  .banner{
+  height: 38rem;
+ }
+}
+@media (min-width: 425px){
+    .banner{
+  height: 40rem;
+ }
+}
 @media (min-width: 640px) { 
+  /*--------Header--------*/
   .logo-image{
      height: 2.5rem;
      width: 2.5rem;
@@ -64,7 +117,33 @@
   a{
     font-size: 1.3rem;
   }
-  
+
+  /*--------banner--------*/
+  .banner{
+  height: 73rem;
+ }
+   .banner-title{
+  font-size: 3rem;
+  padding-top: 15%;
+  padding-bottom: 10%;
+ }
+
+  .banner-description{
+    font-size: 1.3rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+  }
+   .banner-img{
+  height: 28rem;
+  width: 28rem;
+ }
+ .banner-btn{
+    font-size: 1.4rem;
+    height: 3.5rem;
+    width: 16rem;
+    border-radius: 0.8rem;
+  }
 }
 @media (min-width: 768px) { 
 
@@ -78,8 +157,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2% 8% 5% 8%;
-
+    padding: 0.1% 8% 0.1% 8%;
   }
   .ul-menu{
     display: flex;
@@ -98,6 +176,41 @@
     padding-bottom: 0px;
     gap: 2rem;
   }
+  /*--------Banner--------*/
+  .banner-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 8%;
+    gap: 3rem;
+  }
+  .banner{
+    height: 40rem;
+  }
+   .banner-title{
+  font-size: 2.3rem;
+  padding-right: 0%;
+  padding-bottom: 5%;
+ }
+
+  .banner-description{
+    font-size: 1rem;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 10%;
+  }
+   .banner-img{
+  height: 24rem;
+  width: 24rem;
+ }
+ .banner-btn{
+    font-size: 1.2rem;
+    height: 4rem;
+    width: 12rem;
+    border-radius: 1rem;
+  }
+
 }
 @media (min-width: 1280px) { 
 
@@ -107,8 +220,39 @@
    .ul-menu{
     gap: 3rem;
   }
-  
+  /*--------Banner--------*/
+.banner-body{
+    gap: 3rem;
+  }
+  .banner{
+    height: 50rem;
+  }
+   .banner-title{
+  font-size: 3rem;
+ }
 
+  .banner-description{
+    font-size: 1.5rem;
+  }
+   .banner-img{
+  height: 32rem;
+  width: 32rem;
+  padding-bottom: 15%;
+ }
+ .banner-btn{
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 16rem;
+    border-radius: 1rem;
+  }
+}
+@media (min-width: 1640px) { 
+    .banner{
+    height: 56rem;
+  }
+  .banner-body{
+    padding: 6% 8%;
+  }
 }
 @media (min-width: 2560px) { 
   /*--------Header--------*/
@@ -125,4 +269,26 @@
   .logo-name{
     font-size: 4rem;
   }
+  /*--------Banner--------*/
+  .banner{
+    height: 80rem;
+  }
+   .banner-title{
+  font-size: 5rem;
+ }
+
+  .banner-description{
+    font-size: 2rem;
+  }
+   .banner-img{
+  height: 46rem;
+  width: 46rem;
+ }
+ .banner-btn{
+    font-size: 2rem;
+    height: 6rem;
+    width: 20rem;
+    border-radius: 1.2rem;
+  }
+
 }
