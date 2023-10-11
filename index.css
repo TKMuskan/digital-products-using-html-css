@@ -1,0 +1,125 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+@media (min-width: 320px) { 
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .logo-image{
+     height: 1.8rem;
+     width: 1.8rem;
+  }
+  .logo-name{
+    font-size: 1.8rem;
+  }
+  .logo-firstletter{
+    color: blueviolet;
+  }
+  .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  li{
+    padding-bottom: 20%;
+  }
+ a{
+    text-decoration: none;
+    color: rgb(49, 21, 56);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+  }
+  a:hover{
+    color: blueviolet;
+  }
+  .ul-menu{
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 10%;
+  }
+  .navber-container{
+  
+  }
+ .banner-img{
+  height: 2rem;
+  width: 2rem;
+ }
+} 
+@media (min-width: 640px) { 
+  .logo-image{
+     height: 2.5rem;
+     width: 2.5rem;
+  }
+  .logo-name{
+    font-size: 2.5rem;
+  }
+  a{
+    font-size: 1.3rem;
+  }
+  
+}
+@media (min-width: 768px) { 
+
+}
+@media (min-width: 1024px) { 
+  .logo{
+    padding: 0%;
+  }
+  .navber-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 8% 5% 8%;
+
+  }
+  .ul-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  li{
+    padding-bottom: 0%;
+  }
+  a{
+    font-size: 1.2rem;
+  }
+  .ul-menu{
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 0px;
+    gap: 2rem;
+  }
+}
+@media (min-width: 1280px) { 
+
+}
+@media (min-width: 1440px) { 
+   .ul-menu{
+    gap: 3rem;
+  }
+  
+
+}
+@media (min-width: 2560px) { 
+     .ul-menu{
+    gap: 5rem;
+  }
+  a{
+    font-size: 2rem;
+  }
+  .logo-image{
+     height: 4rem;
+     width: 4rem;
+  }
+  .logo-name{
+    font-size: 4rem;
+  }
+}
